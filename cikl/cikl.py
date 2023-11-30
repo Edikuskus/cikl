@@ -56,12 +56,20 @@ print("summa: {0}".format(summa))
 
 #3
 p=1
-predlozenie=""
+predlozhenie=""
 for x in range(8):
     A=float(input("{0}. samm\nchislo: ".format(x+1)))
     if A>0:
         p*=A
-        predlozenie=predlozenie+str(A)+"*"
-print(predlozenie[:-1],"=",p)
+        predlozhenie=predlozhenie+str(A)+"*"
+print(predlozhenie[:-1],"=",p)
 
-#4
+
+
+#15
+for y in rande(10)
+    for x in range(10):
+        print(x,end=" ")
+    print()
+
+
