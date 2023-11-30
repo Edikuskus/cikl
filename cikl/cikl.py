@@ -1,4 +1,4 @@
-from math import *
+﻿from math import *
 from re import X
 
 for x in range(10):
@@ -90,4 +90,43 @@ for number in range(10,21):
     print("kvadrat chisel ot 10 do 20\n{0}: {1}".format(number,kvadrat))
 
 
+#8
+for djuim in range(1, 21):
+    float(input("perevod djuim ot 1 do 20: "))
+    centimeters = djuim * 2.54  
 
+    print("{0} djuim = {1} santimetr".format(djuim,centimeters))
+
+
+#12
+summa=0
+for x in range(1,10):
+    N=int(input("skolko gazonokosilik?: "))
+    m=int(input("skolko vremeni rabotala odna gazonokosilka?: "))
+    
+    m+10
+    print("vsa brigata otrabotala {0}".format(m))
+
+#12
+from random import *
+N=randint(2,10)
+m=randint(1,10)
+summa=0
+print("masinad: ", N)
+print("tunnid: ", m)
+for t in range(N-1):
+    summa+=m
+    m=(m/6)*7
+    print(m)
+print("kokku masinad töötasid: ",summa,"tn")
+
+
+
+for x in range(20,51):
+    if x % 3 == 0 and x % 5 != 0:
+        print(x)
+
+
+for x in range(35,88):
+    if x % 7 in [1,2,5]:
+        print(x)
