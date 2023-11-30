@@ -67,9 +67,27 @@ print(predlozhenie[:-1],"=",p)
 
 
 #15
-for y in rande(10)
+for y in range(10):
     for x in range(10):
         print(x,end=" ")
     print()
+
+
+#29
+for i in range(9):
+    for x in range(9):
+        if x==0 or i==x:
+            print("0",end=" ")
+    else:
+        print("0",end=" ")
+    print()
+
+
+
+#4
+for number in range(10,21):
+    kvadrat=number ** 2
+    print("kvadrat chisel ot 10 do 20\n{0}: {1}".format(number,kvadrat))
+
 
 
