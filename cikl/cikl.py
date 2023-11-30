@@ -121,12 +121,16 @@ for t in range(N-1):
 print("kokku masinad töötasid: ",summa,"tn")
 
 
-
+#19
 for x in range(20,51):
     if x % 3 == 0 and x % 5 != 0:
         print(x)
 
-
+#20 
 for x in range(35,88):
     if x % 7 in [1,2,5]:
         print(x)
+
+
+#end
+print("wewe")
